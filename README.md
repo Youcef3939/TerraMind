@@ -229,3 +229,6 @@ This project is licensed under the MIT License, see the LICENSE file for details
 
 ---
 **TerraMind is my biggest project yet and my first fullstack ai powered app and it was designed on the hopes that i win the local hackathon my uni organized sooo fingers crossed**
+
+---
+**didn't win but i mean we built TerraMind either way so it's still a win for me <3**
