@@ -1,4 +1,4 @@
-# TerraMind, THE AI for sustainable agriculture
+# TerraMind, the AI for sustainable agriculture
 
 **TerraMind** is an AI-powered environmental intelligence platform that helps farmers, researchers, and policymakers monitor, analyze, and predict land and crop health using satellite imagery, climate data, and machine learning
 
