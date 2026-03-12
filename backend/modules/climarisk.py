@@ -1,6 +1,6 @@
 import requests
 import asyncio
-import aiohttp # type: ignore
+import aiohttp 
 from typing import Dict, Any, List, Optional
 from datetime import datetime, timedelta
 import json
@@ -26,7 +26,7 @@ class ClimateRisk:
 
 class ClimaRiskPredictor:
     
-    def __init__(self, openweather_api_key: str = None): # type: ignore
+    def __init__(self, openweather_api_key: str = None): 
         self.api_key = openweather_api_key or "demo_key" 
         self.base_url = "http://api.openweathermap.org/data/2.5"
         self.forecast_url = f"{self.base_url}/forecast"
@@ -219,7 +219,7 @@ class ClimaRiskPredictor:
             confidence = 0.8
         
         return {
-            "risk_level": drought_risk,
+            "risk_level": drought_risk, 
             "confidence": confidence,
             "factors": drought_factors,
             "precipitation_30d": total_precipitation,
@@ -273,7 +273,7 @@ class ClimaRiskPredictor:
         
         avg_humidity = np.mean([w.humidity for w in forecast_data])
         
-        heat_index = self._calculate_heat_index(max_temperature, avg_humidity) # type: ignore
+        heat_index = self._calculate_heat_index(max_temperature, avg_humidity) 
         
         if heat_index > 40:
             heat_stress_risk = "severe"
@@ -365,7 +365,7 @@ class ClimaRiskPredictor:
         
         if not recommendations:
             recommendations.append("Continue regular monitoring")
-            recommendations.append("Maintain current agricultural practices")
+            recommendations.append("Maintain current agricultural practices") 
         
         return recommendations
     
