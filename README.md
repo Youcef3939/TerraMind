@@ -2,7 +2,7 @@
 
 **TerraMind** is an AI-powered environmental intelligence platform that helps farmers, researchers, and policymakers monitor, analyze, and predict land and crop health using satellite imagery, climate data, and machine learning
 
-## features
+## features:
 
 - **Interactive Map Interface**: Draw circular Areas of Interest (AOI) on satellite imagery
 - **Dual Image Analysis**: Compare current vs. 12-month-old satellite images
